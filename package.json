@@ -1,0 +1,21 @@
+{
+  "name": "secondtask",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server"
+  },
+  "author": "Olaide Emmanuel",
+  "license": "MIT",
+  "dependencies": {
+    "config": "^3.3.3",
+    "express": "^4.17.1",
+    "express-validator": "^6.9.2",
+    "mongoose": "^5.11.14"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
